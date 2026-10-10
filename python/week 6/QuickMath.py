@@ -1,7 +1,7 @@
 def add(num1, num2):
     return num1 + num2
 
-sum = add(7, 18)
+sum = add(7, 10)
 print(sum)
 
 def sub(num1, num2):
@@ -14,4 +14,10 @@ def mult(num1, num2):
     return num1 * num2
 
 sum = mult(4, 5)
+print(sum)
+
+def div(num1, num2):
+    return num1 / num2
+
+sum = div(6, 2)
 print(sum)
